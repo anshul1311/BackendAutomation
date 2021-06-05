@@ -1,0 +1,9 @@
+name: hitPostApi
+bodyParameter:
+  latest: https://api.spacexdata.com/v4/launches/latest
+  upcoming: https://api.spacexdata.com/v4/launches/upcoming
+  past : https://api.spacexdata.com/v4/launches/past
+header:
+  Content-Type: application/json
+result:
+  expectedStatusCode: 200
